@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "this web_site actually fixed and ready for work🔥🔥💻"
+    return "this web_site is actually fixed and ready for work🔥🔥💻"
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port="5000", debug=True)
